@@ -1,5 +1,5 @@
 module github.com/Azure/azure-storage-azcopy/v10
-
+go 1.24.6
 require (
 	cloud.google.com/go/storage v1.45.0
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.4.0
@@ -96,5 +96,3 @@ require (
 	google.golang.org/protobuf v1.35.1 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-go 1.24.2
