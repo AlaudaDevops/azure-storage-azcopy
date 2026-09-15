@@ -4,40 +4,34 @@ go 1.27.1
 
 require (
 	cloud.google.com/go/storage v1.56.0
+	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.16.0
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.8.0
+	github.com/Azure/azure-sdk-for-go/sdk/azidentity/cache v0.3.1
+	github.com/Azure/azure-sdk-for-go/sdk/data/aztables v1.3.0
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azblob v1.4.0
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azdatalake v1.2.0
 	github.com/Azure/azure-sdk-for-go/sdk/storage/azfile v1.3.0
+	github.com/Azure/go-autorest/autorest/date v0.3.0
 	github.com/JeffreyRichter/enum v0.0.0-20180725232043-2567042f9cda
 	github.com/danieljoos/wincred v1.2.2
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da
 	github.com/google/uuid v1.6.0
 	github.com/hillu/go-ntdll v0.0.0-20240418173803-69345773b582
+	github.com/keybase/go-keychain v0.0.0-20231219164618-57a3676c3af6
 	github.com/mattn/go-ieproxy v0.0.12
 	github.com/minio/minio-go v6.0.14+incompatible
 	github.com/pkg/errors v0.9.1
 	github.com/pkg/xattr v0.4.10
-	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/spf13/cobra v1.8.1
+	github.com/spf13/pflag v1.0.5
+	github.com/stretchr/testify v1.11.1
 	github.com/wastore/keyctl v0.3.1
-	golang.org/x/crypto v0.55.0 // indirect
+	golang.org/x/net v0.58.0
 	golang.org/x/oauth2 v0.36.0
 	golang.org/x/sync v0.22.0
 	golang.org/x/sys v0.47.0
 	google.golang.org/api v0.264.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
-)
-
-require github.com/stretchr/testify v1.11.1
-
-require (
-	github.com/Azure/azure-sdk-for-go/sdk/azcore v1.16.0
-	github.com/Azure/azure-sdk-for-go/sdk/azidentity v1.8.0
-	github.com/Azure/azure-sdk-for-go/sdk/azidentity/cache v0.3.1
-	github.com/Azure/azure-sdk-for-go/sdk/data/aztables v1.3.0
-	github.com/Azure/go-autorest/autorest/date v0.3.0
-	github.com/keybase/go-keychain v0.0.0-20231219164618-57a3676c3af6
-	github.com/spf13/pflag v1.0.5
-	golang.org/x/net v0.58.0
 )
 
 require (
@@ -78,6 +72,7 @@ require (
 	github.com/pkg/browser v0.0.0-20240102092130-5ac0b6a4141c // indirect
 	github.com/planetscale/vtprotobuf v0.6.1-0.20240319094008-0393e58bdf10 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
+	github.com/rogpeppe/go-internal v1.14.1 // indirect
 	github.com/russross/blackfriday/v2 v2.1.0 // indirect
 	github.com/spiffe/go-spiffe/v2 v2.7.0 // indirect
 	go.opentelemetry.io/auto/sdk v1.2.1 // indirect
@@ -89,6 +84,7 @@ require (
 	go.opentelemetry.io/otel/sdk v1.44.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v1.44.0 // indirect
 	go.opentelemetry.io/otel/trace v1.44.0 // indirect
+	golang.org/x/crypto v0.56.0 // indirect
 	golang.org/x/text v0.41.0 // indirect
 	golang.org/x/time v0.14.0 // indirect
 	google.golang.org/genproto v0.0.0-20260128011058-8636f8732409 // indirect
