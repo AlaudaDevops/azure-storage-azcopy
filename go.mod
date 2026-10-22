@@ -1,6 +1,7 @@
 module github.com/Azure/azure-storage-azcopy/v10
 
 go 1.27.2
+toolchain go1.27.3
 
 require (
 	cloud.google.com/go/storage v1.56.0
