@@ -1,6 +1,7 @@
 module github.com/Azure/azure-storage-azcopy/v10
 
 go 1.27.2
+
 toolchain go1.27.3
 
 require (
@@ -27,10 +28,10 @@ require (
 	github.com/spf13/pflag v1.0.5
 	github.com/stretchr/testify v1.11.1
 	github.com/wastore/keyctl v0.3.1
-	golang.org/x/net v0.60.0
+	golang.org/x/net v0.62.0
 	golang.org/x/oauth2 v0.36.0
-	golang.org/x/sync v0.23.0
-	golang.org/x/sys v0.48.0
+	golang.org/x/sync v0.24.0
+	golang.org/x/sys v0.49.0
 	google.golang.org/api v0.264.0
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c
 )
@@ -58,7 +59,7 @@ require (
 	github.com/envoyproxy/protoc-gen-validate v1.3.3 // indirect
 	github.com/felixge/httpsnoop v1.0.4 // indirect
 	github.com/go-ini/ini v1.67.0 // indirect
-	github.com/go-jose/go-jose/v4 v4.1.4 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.6 // indirect
 	github.com/go-logr/logr v1.4.4 // indirect
 	github.com/go-logr/stdr v1.2.2 // indirect
 	github.com/golang-jwt/jwt/v5 v5.2.2 // indirect
@@ -85,8 +86,8 @@ require (
 	go.opentelemetry.io/otel/sdk v1.45.0 // indirect
 	go.opentelemetry.io/otel/sdk/metric v1.45.0 // indirect
 	go.opentelemetry.io/otel/trace v1.45.0 // indirect
-	golang.org/x/crypto v0.57.0 // indirect
-	golang.org/x/text v0.42.0 // indirect
+	golang.org/x/crypto v0.58.1-0.20261009181718-2f1f834330b2 // indirect
+	golang.org/x/text v0.43.0 // indirect
 	golang.org/x/time v0.14.0 // indirect
 	google.golang.org/genproto v0.0.0-20260128011058-8636f8732409 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20260526163538-3dc84a4a5aaa // indirect
